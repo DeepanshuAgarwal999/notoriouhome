@@ -1,0 +1,103 @@
+.outerContainer {
+  width: 100%;
+  position: relative;
+}
+.innerContainer {
+  position: relative;
+  display: flex;
+  background-image: url("/bannerImages/videoimg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: space-between;
+  /* padding-inline: 10vw; */
+  /* overflow: hidden; */
+}
+.textBox {
+  display: flex;
+  align-items: center;
+  width: 42%;
+  padding-left: 7vw;
+}
+
+.aboutLeftText {
+  font-family: Amelaryas;
+  /* margin-top: -10px; */
+  font-size: 1.9vw;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #ffffff;
+  /* padding: 30px 0px; */
+  text-align: left;
+  line-height: 20px;
+}
+.aboutLeftText span {
+  color: #e4ac4c;
+}
+.aboutLeftContent {
+  /* padding: 20px 0; */
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #ffffff;
+  margin-inline: auto;
+  font-family: Helvetica;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: left;
+}
+.aboutText {
+  margin-top: -15px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.aboutBtn {
+  display: flex;
+  gap: 30px;
+}
+.menuBtn {
+  /* margin-top: 20px; */
+  z-index: 999;
+  /* text-align: center; */
+  background-color: black;
+  font-size: 18px;
+  font-weight: 400;
+  /* line-height: 17px; */
+  letter-spacing: 0em;
+  color: #ffffff;
+  font-family: Helvetica;
+  padding: 18px 24px 10px 24px;
+  border: none;
+  border-bottom: 1px solid #f2f2f2;
+  min-height: 17px;
+  cursor: pointer;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 3s;
+}
+.menuBtn:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.bgImage {
+  background-image: url("/bannerImages/celebration.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: right;
+  width: 50%;
+  /* height: 0vh; */
+  height: 100%;
+}
+.rightSection {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.rightSection img {
+  object-position: right;
+}

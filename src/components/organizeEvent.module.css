@@ -1,0 +1,160 @@
+@font-face {
+  font-family: Helvetica;
+  src: url("/fonts/Helvetica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Amelaryas;
+  src: url("/fonts/Amerlaryas.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Abril Fatface;
+  src: url("/fonts/AbrilFatface.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.outerContainer {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  background-color: #1e1e1e;
+  font-family: Helvetica;
+}
+.innerContainer {
+  padding: 5vw 6vw;
+}
+.Heading {
+  display: flex;
+  gap: 4vw;
+}
+.Heading h1 {
+  font-family: Amelaryas;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e4ac4c;
+}
+.Heading p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  width: 50%;
+}
+.container {
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+.leftContainer {
+  width: 45%;
+}
+.leftContainer img {
+  width: 100%;
+  object-fit: cover;
+}
+.leftContainer div {
+  padding-top: 25px;
+  color: #ffffff;
+}
+.leftContainer h2 {
+  font-family: Abril Fatface;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.leftContainer h3 {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px 0px;
+}
+.leftContainer p {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 15px;
+  color: #8f8f8f;
+  padding-right: 10px;
+}
+.leftContainer a {
+  text-decoration: none;
+  color: #e4ac4c;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.rightContainer {
+  width: 52%;
+  height: 550px;
+  overflow-y: auto;
+  /* background: red; */
+  color: #ffffff;
+}
+.rightContainer {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.rightContainer::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+  width: 0;
+  color: transparent;
+}
+.card {
+  width: 300px;
+}
+.imgContainer {
+  width: 300px;
+  height: 250px;
+}
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+.card h2 {
+  padding-top: 20px;
+  font-family: Abril Fatface;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card h3 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px 0px;
+}
+.card p {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 15px;
+  color: #8f8f8f;
+  padding-right: 10px;
+}
+.card a {
+  text-decoration: none;
+  color: #e4ac4c;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}

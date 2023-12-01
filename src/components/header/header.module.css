@@ -1,0 +1,149 @@
+@font-face {
+  font-family: Helvetica;
+  src: url("/fonts/Helvetica.ttf");
+  font-weight: normal;
+}
+
+.outerContainer {
+  position: relative;
+  width: 100%;
+  font-family: Helvetica;
+}
+.outerContainerNav {
+  position: absolute;
+  width: 100%;
+  font-family: Helvetica;
+  transition: transform 1.4s ease-in-out;
+  z-index: 999;
+}
+.innerContainer {
+  max-width: 1650px;
+  position: relative;
+  background-color: #000000;
+  height: 85px;
+  padding-inline: 6vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.logo {
+  width: 180.1px;
+  min-height: 29.61px;
+}
+.headerBtn {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+  /* position: relative; */
+}
+.hamburgerBtn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8.71px 5.87px 8.79px 5.8px;
+}
+
+.hamburgerBtn img {
+  width: 35px;
+  height: 35px;
+  color: #ffffff;
+}
+.resBtn {
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  font-family: Helvetica;
+  padding: 18px 24px 10px 24px;
+  border: none;
+  border-bottom: 1px solid #f2f2f2;
+  min-height: 17px;
+  cursor: pointer;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 3s;
+}
+.resBtn:hover {
+  background-color: #ffffff;
+  color: black;
+}
+@media only screen and (max-width: 450px) {
+  .logo {
+    width: 130px;
+  }
+  .resBtn {
+    padding: 9px 12px 5px 12px;
+    font-size: 14px;
+  }
+  .headerBtn {
+    gap: 20px;
+  }
+  .hamburgerBtn img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* navbar */
+
+.navbarCloseBtn {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 15px;
+}
+.navContainer {
+  padding: 0px 7vw;
+  background: #ffffff;
+  text-transform: uppercase;
+}
+.navLinks {
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: #000000;
+  line-height: 9px;
+  letter-spacing: 0em;
+}
+.navLinks a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-family: Helvetica;
+  font-weight: 400;
+}
+.navLinks a:hover {
+  color: #e4ac4c;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 0.4s;
+}
+.showNav {
+  transform: translateY(
+    -60%
+  ); /* or any other transform value to make it visible */
+}
+
+.hideNav {
+  transform: translateY(
+    -200%
+  ); /* or any other transform value to make it hidden */
+}
+
+@media screen and (max-width: 420px) {
+  .navLinks a {
+    font-size: 9px;
+  }
+  .navLinks {
+    gap: 10px;
+  }
+  .navContainer {
+    padding: 0vw 1vw;
+  }
+}

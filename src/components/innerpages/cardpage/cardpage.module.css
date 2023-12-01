@@ -1,0 +1,42 @@
+.outerContainer {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #1e1e1e;
+}
+.innerContainer {
+  padding: 2vw 7vw 6vw 7vw;
+  margin-inline: auto;
+}
+.Heading {
+  text-align: center;
+}
+.Heading h1 {
+  font-family: Amelaryas;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  padding: 15px 0;
+}
+.Heading h1 span {
+  color: #e4ac4c;
+}
+.Heading p {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  padding: 25px 17vw;
+}
+.cardSection {
+  display: flex;
+  flex-wrap: wrap;
+  max-width:1200px;
+  margin-top: 10px;
+  justify-content: space-evenly;
+  gap: 20px;
+}

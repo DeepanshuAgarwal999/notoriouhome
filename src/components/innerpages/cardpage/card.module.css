@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Amelaryas;
+  src: url("/fonts/Amerlaryas.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.Container {
+  width: 380px;
+  height: 400px;
+  border: 2px solid;
+  color: #ffffff;
+  margin-inline: auto;
+  font-family: Abril Fatface;
+  background-color: #14141466;
+}
+.dateHeading {
+  position: relative;
+  left: 8%;
+  font-family: Abril Fatface;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.readMore {
+  text-decoration: none;
+  color: #e4ac4c;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  display: inline-block;
+  padding-top: 20px;
+}
+.text {
+  font-family: Helvetica;
+  position: relative;
+  padding-inline: 35px;
+}
+.text h2 {
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 80%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.text p {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8f8f8f;
+  padding-top: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
