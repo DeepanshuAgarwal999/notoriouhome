@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import HomeForm from "./components/HomeForm";
-import OurMenu from "./components/Ourmenu";
+import OurMenu from "./components/OurMenu";
 import Gallery from "./components/Gallery";
 import OrganizeEvent from "./components/OrganizeEvent";
 import Banner from "./components/innerpages/Banner";
@@ -14,10 +14,10 @@ const App = () => {
   return (
     <div>
       <Header />
+      <Home />
       <Banner objectfit={"cover"} bgImg={"/bannerImages/celebration.png"} />
       <Banner objectfit={"cover"} bgImg={"/bannerImages/Maskgroup.png"} />
       <Banner objectfit={""} bgImg={"/bannerImages/guitar.png"} />
-      <Home />
       <OurMenu />
       <StoryBehind />
       <Gallery />
