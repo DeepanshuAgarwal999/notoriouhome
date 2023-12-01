@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./cardpage.module.css";
-import Card from "./card";
+import Card from "./Card";
 const CardPage = () => {
   const cardData = [
     {
