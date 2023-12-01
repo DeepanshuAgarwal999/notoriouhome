@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./homeForm.module.css";
+import styles from "./home_form.module.css";
 import rectangle from "/images/rectangle.png";
 const HomeForm = () => {
   return (
