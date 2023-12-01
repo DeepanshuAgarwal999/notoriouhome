@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./home.module.css";
 import heroLogo from "/images/heroLogo.svg";
-import aboutimg from "/images/aboutimg.svg";  
 import outline from "/images/outline.png";
 import nlogo from "/images/nlogo.svg";
 const Home = () => {
