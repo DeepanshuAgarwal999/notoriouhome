@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./contactus.module.css";
 const ContactUs = () => {
+
   return (
     <section className={styles.outerContainer}>
       <div className={styles.innerContainer}>
@@ -10,7 +11,7 @@ const ContactUs = () => {
         </div>
         <main
           style={{
-            padding: "10px 0px",
+            paddingTop: "25px",
             display: "flex",
             justifyContent: "space-between",
             width: "100%",
@@ -57,7 +58,7 @@ const ContactUs = () => {
                         supportnotorious.jtown@gmail.com
                       </p>
                     </div>
-                  </>{" "}
+                  </>
                   <>
                     <p className={styles.itemHeading}>Office Address</p>
                     <div className={styles.flexRow}>
