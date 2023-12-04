@@ -124,7 +124,7 @@ const ContactUs = () => {
       </div>
       <div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28015.221528783575!2d77.35542945!3d28.632678400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1701625560300!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3408.510832961264!2d75.57342851017917!3d31.317262557043406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5baece075a7d%3A0x3c4a8204d49c0c81!2sNotorious!5e0!3m2!1sen!2sin!4v1701672429419!5m2!1sen!2sin"
           width="100%"
           height="400px"
           style={{ border: 0 }}
