@@ -1,23 +1,6 @@
 import React from "react";
 import styles from "./contactus.module.css";
 const ContactUs = () => {
-  const contactInfo = [
-    {
-      heading: "Contact Number",
-      imgUrl: "/contactusIcons/whatsapp.png",
-      info: "+91 8734-000008",
-    },
-    {
-      heading: "Email Address",
-      imgUrl: "/contactusIcons/email.png",
-      info: "supportnotorious.jtown@gmail.com",
-    },
-    {
-      heading: "Office Address",
-      imgUrl: "/contactusIcons/location.png",
-      info: "5th floor, One Park Side, 334 Lajpat Nagar, Jalandhar, 122017",
-    },
-  ];
   return (
     <section className={styles.outerContainer}>
       <div className={styles.innerContainer}>
@@ -139,7 +122,17 @@ const ContactUs = () => {
           </div>
         </main>
       </div>
-        <img src="/contactusIcons/map.png" alt="" width={"100%"} style={{marginTop:"40px",marginBottom:"40px"}} />
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28015.221528783575!2d77.35542945!3d28.632678400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1701625560300!5m2!1sen!2sin"
+          width="100%"
+          height="450"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </section>
   );
 };
