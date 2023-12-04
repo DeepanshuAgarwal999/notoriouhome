@@ -17,8 +17,9 @@
 .Heading {
   text-transform: center;
   position: relative;
-  top:60px:
-/*   top: -5px; */
+  /* top: -5px; */
+  top: 12px;
+
 }
 .Heading p {
   font-family: Helvetica;
@@ -138,3 +139,4 @@ select {
   cursor: pointer;
   width: fit-content;
 }
+
